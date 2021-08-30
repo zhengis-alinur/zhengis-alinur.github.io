@@ -1,0 +1,39 @@
+@import '../Variables/variables';
+
+.edit-profile-page {
+  padding: 12px 23px;
+  .back-arr {
+    margin-right: 25px;
+  }
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 33px;
+    margin-bottom: 40px;
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-bottom: 20px;
+    }
+    .input-label {
+      font-size: 16px;
+      line-height: 24px;
+      color: $blue;
+    }
+    input {
+      display: none;
+    }
+  }
+  hr {
+    color: $light-grey;
+    margin: 36px 0;
+  }
+  .horizontal {
+    justify-content: flex-start;
+  }
+}

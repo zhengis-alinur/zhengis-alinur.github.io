@@ -1,0 +1,42 @@
+@import "./Variables/variables.scss";
+@import "./styles/fonts";
+
+.App {
+  width: 100%;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+}
+.page {
+  position: relative;
+  height: 100vh;
+  padding: 16px;
+}
+
+.horizontal {
+  display: flex;
+}
+.vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: bold;
+}
+.link {
+  text-decoration: none;
+  color: #000;
+}
+hr {
+  border: none;
+  background-color: $light-grey;
+  color: $light-grey;
+  height: 2px;
+  margin: 36px 0;
+}

@@ -1,0 +1,51 @@
+.cards-holder {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 60px;
+  .character-card-wrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    .character-caption {
+      text-align: start;
+    }
+    .character-image {
+      border-radius: 50%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+  &.list {
+    .character-card-wrapper{
+      width: 100%;
+      .character-caption {
+        text-align: start;
+      }
+      .character-image {
+        width: 74px;
+        height: 74px;
+        margin-right: 18px;
+      }
+    }
+  }
+
+  &.map {
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 200px;
+    .character-card-wrapper{
+      flex-direction: column;
+      width: 164px;
+      .character-caption {
+        text-align: center;
+      }
+      .character-image {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 18px;
+      }
+    }
+  }
+
+}

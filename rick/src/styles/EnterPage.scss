@@ -1,0 +1,15 @@
+.enter-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 28px;
+  img {
+    height: 60%;
+  }
+  .create-acc-caption {
+    display: flex;
+    padding-bottom: 20px;
+  }
+}

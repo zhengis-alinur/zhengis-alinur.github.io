@@ -1,0 +1,39 @@
+.character-filter {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  padding: 16px;
+  background-color: #fff;
+  z-index: 10;
+  .header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 36px;
+    .back-arr {
+      margin-right: 25px;
+    }
+  }
+  .filter-item {
+    .status {
+      margin-bottom: 24px;
+    }
+    .horizontal {
+      justify-content: space-between;
+    }
+    .icons {
+      justify-content: center;
+      align-items: center;
+    }
+    .check {
+      display: flex;
+      align-items: center;
+      margin-bottom: 24px;
+      input {
+        margin-right: 16px;
+      }
+    }
+  }
+}

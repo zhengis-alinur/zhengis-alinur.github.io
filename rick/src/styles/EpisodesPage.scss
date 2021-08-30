@@ -1,0 +1,10 @@
+.slider {
+  display: flex;
+  overflow: scroll;
+  &::-webkit-scrollbar { width: 0; }
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+  p {
+    min-width: 100px;
+  }
+}

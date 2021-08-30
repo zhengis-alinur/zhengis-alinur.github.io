@@ -1,0 +1,113 @@
+@import "../Variables/variables";
+
+.caption {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.grey-caption {
+  margin-bottom: 24px;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: $grey;
+  line-height: 16px;
+  letter-spacing: 1.5px
+}
+
+.title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+}
+
+.big-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  max-width: 345px;
+}
+
+.section-title {
+  width: 100%;
+  text-align: left;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.15px;
+  margin-bottom: 24px;
+}
+
+.blue-text {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: $blue;
+}
+
+.blue-text-thin {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  color: $blue;
+}
+
+.grey-text {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  color: $grey;
+}
+
+.green-text {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: $light-green;
+}
+
+.green-link {
+  text-decoration: none;
+  margin-left: 10px;
+  color: $light-green;
+}
+
+.red-text {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: $red;
+}
+
+.error-msg {
+  color: $red;
+}
+
+.page-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.small-title {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.status {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: $grey;
+}

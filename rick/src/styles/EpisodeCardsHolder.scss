@@ -1,0 +1,30 @@
+.cards-holder {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  .episode-card-wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    .episode-caption {
+      text-align: start;
+      .title {
+
+      }
+    }
+    .episode-img {
+      width: 74px;
+      height: 74px;
+      margin-right: 16px;
+      border-radius: 10px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .arr {
+      position: absolute;
+      right: 0;
+    }
+  }
+}
